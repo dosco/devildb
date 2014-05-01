@@ -1,0 +1,8 @@
+message ColumnCommitEntry {
+  required string row_key = 1;
+  required string column_family = 2;
+  required string column = 3;
+  required int64 timestamp = 4;
+  optional bytes value = 5;
+}
+
